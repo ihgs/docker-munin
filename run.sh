@@ -11,6 +11,7 @@ Munin has not run yet.  Please try again in a few moments.
 </html>
 EOF
 chown munin:munin -R /var/cache/munin/www
+chown munin:munin /var/lib/munin
 chmod g+w /var/cache/munin/www/index.html
 fi
 
